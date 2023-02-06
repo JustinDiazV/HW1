@@ -1,0 +1,111 @@
+body{
+    background-image: url("background.jpg");
+    font-family: sans-serif;
+}
+
+.headerarea{
+    color: white;
+    text-align:left;
+    float:left;
+    align-items: left;
+    border: 3px;
+    border-style: solid;
+    border-color:aqua;
+    background-color: coral;
+
+
+}
+.tablepic{
+background-color: coral;
+clear: both;
+height: 450px;
+width:450px;
+border:3px;
+border-style: solid;
+border-color: aqua;
+float:center;
+}
+img{
+height:180px;
+float:left; 
+align-self: center;
+}
+#ed{
+margin-right: 500px; 
+font-size: 20px;
+color:white;
+width:300px;
+height: 30px;
+}
+#bullet{
+    margin-left: 175px;
+    color:white;
+    
+}
+#name{
+    float:left;
+    color:white;
+}
+#Email{
+    color:white;
+    margin-top: 20px;
+    margin-left: 10px;
+    clear:both;
+    font-size:20px;
+}
+
+tr {
+align:left;
+color: black;
+}
+
+
+tr:nth-child(even){
+background-color: orange;
+}
+
+
+tr:nth-child(odd){
+    background-color:khaki;
+    }
+#headertable {
+height: 10px;
+text-align: left;
+}
+
+th {
+    width: 10px;
+    }
+td {
+height: 5px;
+}
+
+#othertab{
+    height: 100%;
+    width: 100%;
+
+}
+#hobbies{
+
+    background-color: coral;
+    width: 450px;
+    height: 600px;
+    position: relative;
+    border: 3px;
+    border-style: solid;
+    border-color: cyan;
+    color:white;
+    font-size: 16px;
+}
+
+#otherlist{
+    float: right;
+    margin-bottom: auto;
+
+}
+
+#quote{
+    font-style: italic;
+    color: white;
+    font-size: 20px;
+}
